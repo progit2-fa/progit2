@@ -1,24 +1,26 @@
-# Translating Pro Git (2nd Edition)
+# ترجمه پرو گیت ویرایش دوم
 
-The translations are managed in a decentralized way. Each translation team maintains their own project. Each translation is in its own repository, the Pro Git team simply pulls the changes and builds them into the https://git-scm.com website when ready.
+ترجمه‌ها به روش غیرمتمرکز مدیریت می‌شوند. هر تیم ترجمه پروژه خودشان را دارند، تیم
+پرو گیت صرفاً تغییرات را پول می‌کند و هنگامی که آماده بود در وبسایت رسمی گیت می‌سازد.
 
-## General guidance for translating Pro Git
+## راهنمای عمومی برای ترجمهٔ پرو گیت
 
-Pro Git is a book about a technical tool, therefore translating it is difficult compared to a non-technical translation.
+پرو گیت کتابی دربارهٔ یک ابزار فنی است، در نتیجه ترجمه‌اش در قیاس با یک ترجمه
+غیرفنی دشوار است.
 
-The following are guidelines to help you on your way:
-* Before you begin, read the whole Git Pro book in English, so that you're aware of the content, and are familiar with the style used.
-* Ensure you have a good working knowledge of git, so that explaining the technical terms is doable.
-* Stick to a common style and format for the translation.
-* Be sure to read and understand the basics of [Asciidoc formatting](https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/). Not following the asciidoc syntax can lead to problems with building/compilation of the pdf, epub and html files needed for the book.
+راهنمای زیر را مطالعه کنید تا در راهتان کمکتان کند:
+* قبل از اینکه شروع کنید تمام کتاب را در زبان انگلیسی بخوانید تا دربارهٔ محتوایش آگاه باشید و به نحوه نگارش آن عادت کرده باشید.
+* مطمئن باشید که دانش فعالی دربارهٔ گیت دارید تا توضیح اصطلاحات فنی برایتان ممکن باشد.
+* به یک استاندارد رایج و واحد برای ترجمه وفادار بمانید.
+* مطمئن باشید که مفاهیم پایه [قالب‌بندی اسکی‌داک](https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/) را خوانده‌اید و می‌فهمید. پیروی نکردن از سینتکس اسکی‌داک می‌تواند منجر به مشکلات در ساخت/کامپایل پی‌دی‌اف، ای‌پاب و اچ‌تی‌ام‌ال مورد نیاز کتاب شود.
 
-## Translating the book to another language
+## ترجمه کتاب به زبانی دیگر
 
-### Helping with a existing project
+### کمک به پروژه‌ای از پیش موجود
 
-* Check for an already existing project in the following table.
-* Go to the project's page on GitHub.
-* Open an issue, introduce yourself and ask where you can help.
+* جدول زیر را به دنبال یک پروژهٔ از پیش موجود بگردید.
+* به صفحهٔ پروژه در گیت‌هاب بروید.
+* یک ایشو باز کنید، خود را معرفی کنید و بپرسید که چگونه می‌توانید کمک کنید.
 
 | Language     | GitHub page     |
 | :------------- | :------------- |
@@ -52,55 +54,66 @@ The following are guidelines to help you on your way:
 | 简体中文  | [progit/progit2-zh](https://github.com/progit/progit2-zh) |
 | 正體中文  | [progit/progit2-zh-tw](https://github.com/progit/progit2-zh-tw) |
 
-### Starting a new translation
+### شروع یک ترجمه جدید
 
-If there is no project for your language, you can start your own translation.
+اگر ترجمه‌ای در زبان شما نیست، می‌توانید ترجمه خودتان را شروع کنید.
 
-Base your work on the second edition of the book, available [here](https://github.com/progit/progit2). To do so:
- 1. Pick the correct [ISO 639 code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for your language.
- 1. Create a [GitHub organization](https://help.github.com/articles/creating-a-new-organization-from-scratch/), for example: `progit2-[your code]` on GitHub.
- 1. Create a project ``progit2``.
- 1. Copy the structure of progit/progit2 (this project) in your project and start translating.
+پایه خود را روی دومین ویرایش کتاب که در [اینجا](https://github.com/progit/progit2) موجود است قرار دهید. برای این کار:
+ 1. [کد ایزو ۶۳۹](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) صحیح زبانتان را انتخاب کنید.
+ 1. یک [سازمان گیت‌هابی](https://help.github.com/articles/creating-a-new-organization-from-scratch/) با کد مرحله قبل روی گیت‌هاب بسازید.
+ 1. یک پروژه با نام پروگیت۲ در آن بسازید: ``progit2``
+ 1. ساختار این پروژه را در پروژه خود کپی کرده و شروع به ترجمه کنید.
 
-### Updating the status of your translation
+### بروزرسانی وضعیت ترجمه‌تان
 
-On https://git-scm.com, the translations are divided into three categories. Once you have reached one of these levels, contact the maintainers of https://git-scm.com/ so that they can pull the changes.
+روی سایت گیت ترجمه‌ها به سه رده تقسیم شده‌اند. هرگاه که به یکی از این سه رده
+رسیدید یکی از توسعه‌دهندگان وبسایت گیت را خبر کنید تا تغییرات را پول کنند.
 
-| Category | Completion     |
+| رده | کمال     |
 | :------------- | :------------- |
-| Translation started for | Introduction translated, not much else. |
-| Partial translations available in | up to chapter 6 has been translated. |
-| Full translation available in |the book is (almost) fully translated. |
+| ترجمه شروع شده | مقدمه ترجمه شده و دیگر هیچ. |
+| به طور ناقص ترجمه شده | تا ۶ فصل ترجمه شده است. |
+| ترجمه کامل موجود است |کتاب (تقریباً) به طور کامل ترجمه شده است. |
 
-## Continuous integration with Travis CI
+## یکپارچه‌سازی مداوم با تراویس سی‌آی
 
-Travis CI is a [continuous integration](https://en.wikipedia.org/wiki/Continuous_integration) service that integrates with GitHub. Travis CI is used to ensure that a pull-request doesn't break the build or compilation. Travis CI can also provide compiled versions of the book.
+تراویس سی‌آی یک سرویس [یکپارچه‌ساز
+مداوم](https://en.wikipedia.org/wiki/Continuous_integration) است که با گیت‌هاب
+یکپارچه‌سازی می‌کند. تراویس سی‌آی برای اطمینان از اینکه پول-رکوئست برای ساختن یا کامپایل
+مشکل‌ساز نمی‌شود استفاده می‌شود. تراویس سی‌آی همچنین نسخه کامپایل‌شدهٔ کتاب را ارائه می‌کند.
 
-Setting up Travis CI requires administrative control over the repository.
+راه‌اندازی تراویس سی‌آی نیازمند دسترسی سطح ادمین به مخزن است.
 
-### Registering for Travis continuous integration
+### ثبت‌نام برای یکپارچه‌سازی مداوم با تراویس سی‌آی
 
-1. Register a Travis account [here](https://travis-ci.org/).
-1. Register your project in Travis.
-Please refer to the [Travis documentation](https://docs.travis-ci.com/) for more information.
+1. راه‌اندازی یک اکانت تراویس از [اینجا](https://travis-ci.org/).
+1. ثبت پروژه‌تان در تراویس لطفاً برای اطلاعات بیشتر [مستندات تراویس](https://docs.travis-ci.com/) را مطالعه کنید.
 
-### Setting up your repository for continuous integration
+### آماده‌سازی مخزنتان برای یکپارچه‌سازی مداوم
 
-Travis CI works by scanning your project's root directory for a file named `.travis.yml` and following the 'recipe' that it contains. The good news is: there's already a working `.travis.yml` file in the Pro Git 2 source [here](https://raw.githubusercontent.com/progit/progit2-pub/master/travis.yml).
-Copy that file, and put it in your working directory. Commit the .yml file and push it to your translation repository; that should fire up a compilation and a check of the book's contents.
+تراویس سی‌آی با اسکن کردن روت پروژه به دنبال فایلی با نام روبرو کار می‌کند: `.travis.yml`
 
-## Setting up a publication chain for e-books
+این فایل شامل «دستور کار» تراویس است و خبر خوب اینکه از پیش یک فایل فعال در سورس پرو
+گیت دو در [اینجا](https://raw.githubusercontent.com/progit/progit2-pub/master/travis.yml) هست.
 
-This is a technical task, please ping @jnavila to get started with epub publication.
+## راه‌اندازی یک زنجیره انتشار برای این کتاب الکترونیک
 
-## Beyond Pro Git
+این کار فنی است، لطفا به آیدی روبرو برای شروع کار انتشار ای‌پاب مراجعه کنید: @jnavila
 
-Translating the book is the first step. Once this is finished, you could consider translating the user interface of Git itself.
+## فرای پرو گیت
 
-This task requires a more technical knowledge of the tool than the book. Hopefully, after having translated the full book content, you can understand the terms used in the application. If you feel technically up to the task, the repo is [here](https://github.com/git-l10n/git-po) and you just have to follow the [guide](https://github.com/git-l10n/git-po/blob/master/po/README).
+ترجمهٔ کتاب قدم اول است. وقتی که ترجمه تمام شد، می‌توانید به ترجمهٔ رابط کاربری خود
+گیت فکر کنید.
 
-Beware though that
+چنین کاری دانش فنی بیشتری از ابزار کتاب احتیاج دارد.
+در بهترین حالت بعد از ترجمه کردن تمام مطالب کتاب، شما قادر خواهید بود که
+اصطلاحات درون نرم‌افزار را درک کنید.
+اگر احساس می‌کنید از لحاظ فنی آمادگی دارید، [این
+مخزنی](https://github.com/git-l10n/git-po) که به دنباش می‌گردید و فقط کافیست که
+[این راهنما](https://github.com/git-l10n/git-po/blob/master/po/README) را دنبال کنید.
 
- * you'll need to use more specific tools to manage localization po files (such as editing them with [poedit](https://poedit.net/) and merging them. You might need to compile git in order to check your work.
- * a basic knowledge of how translating applications works is required, which is significantly different from translating books.
- * the core Git project uses more stringent [procedures](https://github.com/git-l10n/git-po/blob/master/Documentation/SubmittingPatches) to accept contributions, be sure to abide by them.
+اگرچه آگاه باشید که:
+
+ * نیازمند ابزارهای خاص بیشتری خواهید بود تا فایل‌های ترجمهٔ پو را مدیریت و مرج کنید (ابزاری مانند [پوادیت](https://poedit.net/)). ممکن است نیازمند کامپایل گیت شوید تا کار خود را چک کنید.
+ * دانش پایه‌ای از اینکه چگونه ترجمه نرم‌افزار پیش می‌رود احتیاج خواهید داشت چرا که بسیار با ترجمه کتاب‌ها متفاوت است. 
+ * پروژه اصلی گیت بیشتر از [روش‌های سخت‌گیرانه‌تری](https://github.com/git-l10n/git-po/blob/master/Documentation/SubmittingPatches) برای تأیید همکاری‌ها استفاده می‌کند. مطمئن باشید که از آنها تبعیت می‌کنید.

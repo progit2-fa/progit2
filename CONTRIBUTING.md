@@ -1,44 +1,68 @@
-# Contributing to Pro Git (2nd Edition)
+# همکاری در پروگیت (ویرایش دوم)
 
-## Licensing
+
+
+## لایسنس
+
+ترجمه از متن انگلیسی زیر: (متن انگلیسی زیر مرجع قانون است و ترجمه تلاش بر این دارد تا به
+درک آن کمک کند)
 
 By opening a pull request to this repository, you agree to provide your work under the [project license](LICENSE.asc).
 Also, you agree to grant such license of your work as is required for the purposes of future print editions to @ben and @schacon.
 Should your changes appear in a printed edition, you'll be included in the [contributors list](book/contributors.asc).
 
-## Signaling an Issue
+با باز کردن یک درخواست پول به این مخزن، شما موافقت می‌کنید که کارتان را تحت
+[لایسنس پروژه](LICENSE.asc) به اشتراک بگذارید.
+همچنین موافقت می‌کنید که چنین مجوزی از کارتان بدهید چرا که برای اهداف چاپ ویرایش‌های
+آینده برای @ben و @schancon ضروری است.
+اگر تغییرات شما در نسخه چاپی اعمال شوند، شما در [لیست
+همکاران](book/contributors.asc) خواهید بود.
 
-Before signaling an issue, please check that there isn't already a similar one in the bug tracking system.
+## ارجاع یک مشکل
 
-Also, if this issue has been spotted on the git-scm.com site, please cross-check that it is still present in the pdf version.
-The issue may have already been corrected, but the changes have not been deployed yet.
+قبل از ارجاع یک مشکل، لطفاً بررسی کنید که پیشتر مشکل مشابهی در سیستم رهگیری باگ وجود نداشته باشد.
 
-## Small Corrections
+همچنین اگر این مشکل سابقاً روی سایت رسمی گیت مشاهده شده، لطفاً بازنگری کنید که آیا هنوز در این مخزن موجود است یا خیر.
+ممکن است پیش از این مشکل اصلاح شده باشد، اما تغییرات هنوز اعمال نشده باشند.
 
-Errata and basic clarifications will be accepted if we agree that they improve the content.
-You can also open an issue so we can figure out how or if it needs to be addressed.
+## اصلاحات کوچک
 
-If you've never done this before, the [flow guide](https://guides.github.com/introduction/flow/) might be useful.
+اشتباهات تایپی و واضح‌سازی‌های پایه در صورتی مورد موافقت ما قرار می‌گیرند که به
+صراحت محتوا را بهبود بخشند.
+شما همچنین می‌توانید یک ایشو باز کنید تا ما بررسی کنیم که آیا احتیاج است و اگر
+هست چگونه آنرا حل کنیم.
 
-## Large Rewrites
+اگر پیش از این هرگز چنین کاری نکرده‌اید [راهنمای
+روندکاری](https://guides.github.com/introduction/flow/) ممکن است برای شما سودمند
+باشد.
 
-Open an issue for discussion before you start.
-These changes tend to be very subjective, often only clarifying things for some small percentage of people and it's rarely worth the time to accept them.
-Professional copy editors have already reviewed this content multiple times so while you may have somewhat better taste and grammar than we do it's unlikely that your prose is going to be *so* much better that it's worth changing vast swaths of text.
+## بازنویسی‌های بزرگ
 
-## Figures
-
-The images in this book were generated using [Sketch 3](https://www.sketchapp.com/), with the [included sketchbook file](diagram-source/progit.sketch).
-
-To add a figure:
-
-1. Add a page to the sketchbook.
-Try to use the included symbols wherever possible.
-2. Add a "slice" to your page.
-Give it a name that matches the destination PNG filename, relative from the root of the source directory.
-3. Make sure your slice is set to export at "800w".
+پیش از آنکه شروع کنید برای مبحث مورد نظر یک ایشو باز کنید.
+این تغییرات احتمالاً وابسته به طرز فکر اشخاص هستند و معمولاً فقط برای درصد کمی از
+افراد شفاف‌سازی می‌کنند و به ندرت ارزش زحمت و زمان قبول کردن را دارند.
+ویرایستارهای حرفه‌ای پیش از این، این مطالب را بارها بررسی کرده‌اند؛ بنابراین حتی
+اگر شما از ادبیات یا نوشتار کم‌وبیش بهتری برخوردارید احتمال اینکه متن شما آنقدر
+خوب باشد که ارزش ویرایش متقابل دریایی از متون مرتبط به خود (مثلاً در آن فصل) را
+داشته باشد بسیار کم است.
 
 
-## Translations
+## اشکال
 
-If you would like to contribute to translating Pro Git into your language, take a look at [TRANSLATING.md](TRANSLATING.md).
+تصاویر این کتاب بوسیلهٔ [اسکچ ۳](https://www.sketchapp.com/) و با [فایل
+اسکچ‌بوک نظیر](diagram-source/progit.sketch) ساخته شده‌اند.
+
+برای افزودن یک شکل:
+
+1. یک صفحه به اسکچ‌بوک اضافه کنید.
+سعی کنید که هرجا که ممکن است از سمبل‌های از پیش اضافه شده استفاده کنید.
+2. یک «اسلایس» به صفحه خود اضافه کنید.
+به آن یک نام بدهید که به نام فایل پی‌ان‌جی مقصد و آدرس نسبی که از روت سورس دایرکتوری
+دارد بخورد.
+3. اطمینان حاصل کنید که اسلایس شما برای خروجی گرفتن به صورت روبرو تنظیم شده
+باشد: 800w
+
+
+## ترجمه‌ها
+
+اگر می‌خواهید در ترجمه پروگیت به زبان خودتان کمک کنید نگاهی به [فایل راهنمای ترجمه](TRANSLATING.md) بیاندازید.

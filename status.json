@@ -1,27 +1,27 @@
 {
-  "code": "en",
-  "language": "English",
-  "maintainers": ["schacon"],
+  "code": "fa",
+  "language": "Persian",
+  "maintainers": ["mydavoodeh"],
   "files": {
     "01-introduction": {
-      "1-introduction.asc": 0,
-      "sections/about-version-control.asc": 0,
-      "sections/basics.asc": 0,
-      "sections/command-line.asc": 0,
-      "sections/first-time-setup.asc": 0,
-      "sections/help.asc": 0,
-      "sections/history.asc": 0,
-      "sections/installing.asc": 0
+      "1-introduction.asc": 100,
+      "sections/basics.asc": 100,
+      "sections/about-version-control.asc": 100,
+      "sections/command-line.asc": 100,
+      "sections/first-time-setup.asc": 100,
+      "sections/help.asc": 100,
+      "sections/history.asc": 100,
+      "sections/installing.asc": 100
     },
     "02-git-basics": {
-      "1-git-basics.asc": 0,
-      "sections/aliases.asc": 0,
-      "sections/getting-a-repository.asc": 0,
+      "1-git-basics.asc": 98,
+      "sections/aliases.asc": 98,
+      "sections/getting-a-repository.asc": 100,
       "sections/recording-changes.asc": 0,
       "sections/remotes.asc": 0,
-      "sections/tagging.asc": 0,
-      "sections/undoing.asc": 0,
-      "sections/viewing-history.asc": 0
+      "sections/tagging.asc": 95,
+      "sections/undoing.asc": 10,
+      "sections/viewing-history.asc": 90
     },
     "03-git-branching": {
       "1-git-branching.asc": 0,
