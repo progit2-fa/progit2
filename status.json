@@ -41,7 +41,7 @@
       "sections/gitweb.asc": 95,
       "sections/hosted.asc": 95,
       "sections/protocols.asc": 10,
-      "sections/setting-up-server.asc": 0,
+      "sections/setting-up-server.asc": 95,
       "sections/smart-http.asc": 95
     },
     "05-distributed-git": {
