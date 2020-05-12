@@ -21,7 +21,7 @@
       "sections/remotes.asc": 95,
       "sections/tagging.asc": 95,
       "sections/undoing.asc": 95,
-      "sections/viewing-history.asc": 95
+      "sections/viewing-history.asc": 100
     },
     "03-git-branching": {
       "1-git-branching.asc": 95,
