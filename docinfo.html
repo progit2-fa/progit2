@@ -1,6 +1,27 @@
 <style>
-    div, dl, dt, dd, ul, ol, li, h1, h2, h3, #toctitle, .sidebarblock>.content>.title, h4, h5, h6, form, p, blockquote, th, td, #content {
+    div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, #toctitle, .sidebarblock>.content>.title, form, p, blockquote, th, td, #content, .title {
         direction: rtl;
+        text-align: right; /* Fallback align for converted outputs such as Docx */
         text-align: justify;
+    }
+    code {
+        direction: ltr;
+        unicode-bidi: embed;
+    }
+    /* Force Right align to some elements */
+    th, .title {
+        text-align: right !important;
+    }
+    /* For TOC */
+    ul[class^="sectlevel"] {
+        margin-right: 1.25em;
+        margin-left: 0;
+        margin-bottom: 0;
+        font-size: 1em;
+    }
+    /* For lists */
+    ul, ol {
+        margin-right: 1.5em;
+        margin-left: 0;
     }
 </style>

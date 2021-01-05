@@ -14,41 +14,41 @@
       "sections/installing.asc": 100
     },
     "02-git-basics": {
-      "1-git-basics.asc": 95,
-      "sections/aliases.asc": 95,
-      "sections/getting-a-repository.asc": 95,
-      "sections/recording-changes.asc": 95,
-      "sections/remotes.asc": 95,
-      "sections/tagging.asc": 95,
-      "sections/undoing.asc": 95,
-      "sections/viewing-history.asc": 95
+      "1-git-basics.asc": 100,
+      "sections/aliases.asc": 100,
+      "sections/getting-a-repository.asc": 100,
+      "sections/recording-changes.asc": 100,
+      "sections/remotes.asc": 100,
+      "sections/tagging.asc": 100,
+      "sections/undoing.asc": 100,
+      "sections/viewing-history.asc": 100
     },
     "03-git-branching": {
-      "1-git-branching.asc": 95,
-      "sections/basic-branching-and-merging.asc": 90,
-      "sections/branch-management.asc": 90,
-      "sections/nutshell.asc": 95,
-      "sections/rebasing.asc": 90,
-      "sections/remote-branches.asc": 90,
-      "sections/workflows.asc": 90
+      "1-git-branching.asc": 100,
+      "sections/basic-branching-and-merging.asc": 100,
+      "sections/branch-management.asc": 100,
+      "sections/nutshell.asc": 100,
+      "sections/rebasing.asc": 100,
+      "sections/remote-branches.asc": 100,
+      "sections/workflows.asc": 100
     },
     "04-git-server": {
-      "1-git-server.asc": 0,
-      "sections/generating-ssh-key.asc": 0,
-      "sections/git-daemon.asc": 0,
-      "sections/git-on-a-server.asc": 0,
-      "sections/gitlab.asc": 0,
-      "sections/gitweb.asc": 0,
-      "sections/hosted.asc": 0,
-      "sections/protocols.asc": 0,
-      "sections/setting-up-server.asc": 0,
-      "sections/smart-http.asc": 0
+      "1-git-server.asc": 100,
+      "sections/generating-ssh-key.asc":100,
+      "sections/git-daemon.asc": 100,
+      "sections/git-on-a-server.asc": 100,
+      "sections/gitlab.asc": 100,
+      "sections/gitweb.asc": 100,
+      "sections/hosted.asc": 100,
+      "sections/protocols.asc": 100,
+      "sections/setting-up-server.asc": 100,
+      "sections/smart-http.asc": 100
     },
     "05-distributed-git": {
-      "1-distributed-git.asc": 95,
-      "sections/contributing.asc": 90,
-      "sections/distributed-workflows.asc": 90,
-      "sections/maintaining.asc": 95
+      "1-distributed-git.asc": 100,
+      "sections/contributing.asc": 100,
+      "sections/distributed-workflows.asc": 100,
+      "sections/maintaining.asc": 100
     },
     "06-github": {
       "1-github.asc": 0,
