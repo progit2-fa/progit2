@@ -1,64 +1,109 @@
 ---
-name: Bug report
-about: Create a report to help us improve
+name: گزارش مشکل
+about: گزارشی بنویسید تا به حل مشکلی کمک کنید
 title: ''
 labels: ''
 assignees: ''
 
 ---
 
-<!-- Before filing a bug please check the following: -->
-<!-- * There's no existing/similar bug report. -->
-<!-- * This bug report is about a single actionable bug. -->
-<!-- * This bug is about the Pro Git book, version 2, English language. -->
-<!-- * This bug is about the book as found on the [website](https://www.git-scm.com/book/en/v2) or the pdf. -->
-<!-- * If you found a issue in the pdf/epub/mobi files, you've checked if the problem is also present in the Pro Git book on the [website](https://www.git-scm.com/book/en/v2). -->
-<!-- * This bug is **not** about a translation, if so please file a bug with the translation project. You can find a table of translation projects here: [progit2/TRANSLATING.md](https://github.com/progit/progit2/blob/master/TRANSLATING.md) -->
-<!-- * This bug is **not** about the git-scm.com site, if so please file a bug here: [git-scm.com/issues/new](https://github.com/git/git-scm.com/issues/new) -->
-<!-- * This bug is **not** about git the program itself, if so please file a bug here: [git-scm.com/community](https://git-scm.com/community) -->
-<!-- * This bug is **not** about Git for Windows, if so please file a bug here: [git-for-windows/git](https://github.com/git-for-windows/git). -->
+<!-- این علائم در پاسخ نهایی نخواهند بود. برای دیدن شکل نهایی گزارش روی لبه Preview changes کلیک کنید. -->
 
-**Which version of the book is affected?**
-<!-- It's important for us to know if the problem is in the source or in the tooling for the pdf/epub/mobi files. -->
-<!-- Therefore, please write whether the problem is with the files, the online book, or both. -->
+<!-- لطفاً پیش از پر کردن یک گزارش موارد زیر را در نظر بگیرید: -->
+<!-- * مطمئن باشید گزارش مشابهی از پیش وجود نداشته باشد. -->
+<!-- * مشکل در مورد یک ایراد و فقط یک ایراد باشد که یک راه حل بخواهد. -->
+<!-- * این ایراد درباره کتاب پرو گیت دو، زبان فارسی باشد. -->
+<!-- * این مشکل توسط کتاب باشد مانند آن که روی [سایت گیت](https://www.git-scm.com/book/fa/v2) است. -->
+<!-- * اگر مشکلی پیدا کرده‌اید که مرتبط با یکی از خروجی‌های کتاب است و روی [سایت گیت](https://www.git-scm.com/book/fa/v2) هم وجود دارد. -->
+<!-- * مشکل درباره نسخه‌ای از کتاب غیر از فارسی نباشد. -->
+<!-- * مشکل درباره اسکی‌داکتر و عدم امکان نمایش فونت آن نباشد، برای پیگیری این مشکل به اسکی‌داکتر گزارش کنید: [github.com/asciidoctor](https://github.com/asciidoctor) -->
+<!-- * مشکل درباره سایت گیت نباشد، اگر مشکلی آنجا پیدا کرده‌اید در اینجا به اشتراک بگذارید: [git-scm.com/issues/new](https://github.com/git/git-scm.com/issues/new) -->
+<!-- * مشکل درباره خود گیت نباشد، اگر در برنامه گیت مشکلی پیدا کرده‌اید اینجا به اشتراک بگذارید: [git-scm.com/community](https://git-scm.com/community) -->
+<!-- * مشکل درباره گیت ویندوز نباشد، اگر در برنامه گیت برای ویندوز مشکلی پیدا کرده‌اید اینجا به اشتراک بگذارید: [git-for-windows/git](https://github.com/git-for-windows/git). -->
 
-**Describe the bug:**
-<!-- A clear and concise description of what the bug is. -->
+<!-- این خط را پاک نکنید --><p dir="rtl"><b>
+چه نسخه‌ای از کتاب این مشکل را دارد؟
+<!-- این خط را پاک نکنید --></b></p><p dir="rtl">
+<!-- مهم است بدانیم مشکل در کتاب است یا ابزاری که در ساخت خروجی کتاب استفاده شده است. -->
+<!-- بنابراین بنویسید اگر مشکل در کتاب است یا نسخه آنلاین یا هر دو. -->
 
-**Steps to reproduce:**
-<!-- Please write the steps needed to reproduce the bug here. -->
-<!-- 1. Go to '...' -->
-<!-- 2. Click on '....' -->
-<!-- 3. Scroll down to '....' -->
-<!-- 4. See error -->
+<!-- پاسخ را بالای این خط بگذارید. این خط را پاک نکنید. --></p>
 
-**Expected behavior:**
-<!-- A clear and concise description of what you expected to happen. -->
+<!-- این خط را پاک نکنید --><p dir="rtl"><b>
+مشکل را شرح دهید:
+<!-- این خط را پاک نکنید --></b></p><p dir="rtl">
+<!-- مخصترآ بنویسید مشکل چیست؟ -->
 
-**Screenshots:**
-<!-- If applicable, add screenshots to help explain your problem. -->
+<!-- پاسخ را بالای این خط بگذارید. این خط را پاک نکنید. --></p>
 
-**Additional context:**
-<!-- Add any other context about the problem here. -->
-<!-- You can also put references to similar bugs here. -->
 
-**Desktop:**
-<!-- If you've used a desktop/laptop to access the content, please fill in this form. -->
-<!-- Example: Windows 10 Home Edition, Firefox, version 66.0.2 -->
-- Operating system:
-- Browser/application:
-- Browser/application version:
+<!-- این خط را پاک نکنید --><p dir="rtl"><b>
+مراحل بازتولید یا نمایش مشکل:
+<!-- این خط را پاک نکنید --></b></p><p dir="rtl">
+<!-- مراحل بازتولید مشکل را اینجا بنویسید. -->
+<!-- اول به فلان جا می‌رویم -->
+<!-- بعد روی آن کلیک کردم -->
+<!-- به اندازه کافی اگر پایین بیایید مشکل در فلان جا است -->
 
-**Smartphone:**
-<!-- If you've used a smartphone to access the content, please fill in this form. -->
-<!-- Example: iPhone 6, iOS 12.2, Safari, version 22 -->
-- Device:
-- OS:
-- Browser/application:
-- Browser/application version:
+<!-- پاسخ را بالای این خط بگذارید. این خط را پاک نکنید. --></p>
 
-**E-book reader:**
-<!-- If you've used a e-book reader to access the content, please fill in this form. -->
-<!-- Example: Amazon Kindle Paperwhite 10th generation, software update 5.11.1 -->
-- Device:
-- Software Update:
+<!-- این خط را پاک نکنید --><p dir="rtl"><b>
+رفتار مورد انتظار:
+<!-- این خط را پاک نکنید --></b></p><p dir="rtl">
+<!-- مختصراً بنویسید انتظار داشتید چه اتفاقی بیوفتد یا چه چیزی را ببینید. -->
+
+<!-- پاسخ را بالای این خط بگذارید. این خط را پاک نکنید.--></p>
+
+<!-- این خط را پاک نکنید --><p dir="rtl"><b>
+اسکرین‌شات‌ها:
+<!-- این خط را پاک نکنید --></b></p><p dir="rtl">
+<!-- اگر لازم است می‌توانید اسکرین‌شات‌های خود را که به حل مشکل کمک می‌کنند اینجا اضافه کنید. -->
+
+<!-- پاسخ را بالای این خط بگذارید. این خط را پاک نکنید.--></p>
+
+<!-- این خط را پاک نکنید --><p dir="rtl"><b>
+سایر جزئیات:
+<!-- این خط را پاک نکنید --></b></p><p dir="rtl">
+<!-- سایر جزئیات مشکل را اینجا درج کنید. -->
+<!-- علاوه بر این ارجاعات به سال مشکلات مشابه را می‌توانید اینجا درج کنید. -->
+
+<!-- پاسخ را بالای این خط بگذارید. این خط را پاک نکنید.--></p>
+
+<!-- این خط را پاک نکنید --><p dir="rtl"><b>
+دسکتاپ:
+<!-- این خط را پاک نکنید --></b></p><p dir="rtl">
+<!-- اگر از یک کامپیوتر یا لپتاپ برای دسترسی به این محتوا استفاده کرده‌اید لطفاً این فرم را پر کنید. -->
+<!-- مثلاً: ویندوز ۱۰، فایرفاکس نسخه ۶۶.۰.۲ و فونت مرورگر وزیر. -->
+<!-- این خط را پاک نکنید -->
+- سیستم‌عامل:
+- نرم‌افزار/مرورگر:
+- نسخه نرم‌افزار/مرورگر:
+- فونت سیستم:
+- فونت نرم‌افزار/مرورگر:
+
+<!-- پاسخ را بالای این خط بگذارید. این خط را پاک نکنید.--></p>
+
+
+<!-- این خط را پاک نکنید --><p dir="rtl"><b>
+گوشی هوشمند:
+<!-- این خط را پاک نکنید --></b></p><p dir="rtl">
+<!-- اگر از یک گوشی هوشمند برای دسترسی به این محتوا استفاده کرده‌اید لطفاً این فرم را پر کنید. -->
+<!-- مثلاً: سامسونگ گلکسی اس۵، اندروید ۴.۴.۴، فایرفاکس نسخه ۶۶.۰.۲. -->
+<!-- این خط را پاک نکنید -->
+- دستگاه:
+- سیستم‌عامل:
+- نرم‌افزار/مرورگر:
+- نسخه نرم‌افزار/مرورگر:
+
+<!-- پاسخ را بالای این خط بگذارید. این خط را پاک نکنید.--></p>
+
+<!-- این خط را پاک نکنید --><p dir="rtl"><b>
+کتابخوان:
+<!-- این خط را پاک نکنید --></b></p><p dir="rtl">
+<!-- اگر از یک کتابخوان برای دسترسی به این محتوا استفاده کرده‌اید لطفاً این فرم را پر کنید. -->
+<!-- مثلاً: آمازون کیندل پیپروایت نسل ۱۰، نسخه نرم‌افزار ۵.۱۱.۱. -->
+<!-- این خط را پاک نکنید -->
+- دستگاه:
+- نسخه نرم‌افزار:
+
+<!-- پاسخ را بالای این خط بگذارید. این خط را پاک نکنید.--></p>
