@@ -13,7 +13,7 @@ Should your changes appear in a printed edition, you'll be included in the [cont
 با باز کردن یک درخواست پول به این مخزن، شما موافقت می‌کنید که کارتان را تحت
 <a href="https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/">مجوز پروژه</a> به اشتراک بگذارید.
 همچنین موافقت می‌کنید که چنین مجوزی از کارتان بدهید چرا که برای اهداف چاپ ویرایش‌های
-  آینده برای <span dir="rtl">@ben و @schancon</span> ضروری است.
+آینده برای <span dir="rtl">@ben و @schancon</span> ضروری است.
 اگر تغییرات شما در نسخه چاپی اعمال شوند، شما در <a href="https://github.com/progit2-fa/progit2/blob/master/book/contributors.asc">لیست
 مشارکت کنندگان</a> خواهید بود.
 </p>
